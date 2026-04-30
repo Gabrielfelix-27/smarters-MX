@@ -2,8 +2,7 @@ import { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 import smartersLogo from './assets/smarters-txt.png';
 import smartersMonoLogo from './assets/smarters-mono.png';
-import dEngageLogo from './assets/dengage-logo.png';
-import dashLogo from './assets/20dash-logo.png';
+import bermudaLogo from './assets/Bermuda.png';
 import eventLogo from './assets/nome-evento.png';
 import metaLogo from './assets/meta-logo.png';
 import RegistrationModal from './components/RegistrationModal';
@@ -50,12 +49,8 @@ function App() {
               <img src={smartersLogo} alt="Smarters" className="partner-img smarters-img" />
             </a>
             <div className="divider"></div>
-            <a href="https://dengage.com/br/" target="_blank" rel="noopener noreferrer">
-              <img src={dEngageLogo} alt="D-engage" className="partner-img dengage-img" />
-            </a>
-            <div className="divider"></div>
-            <a href="https://20dash.com/pt/" target="_blank" rel="noopener noreferrer">
-              <img src={dashLogo} alt="20DASH" className="partner-img dash-img" />
+            <a href="https://www.thebermuda.com/" target="_blank" rel="noopener noreferrer">
+              <img src={bermudaLogo} alt="The Bermuda" className="partner-img bermuda-img" />
             </a>
           </div>
         </nav>
@@ -73,19 +68,22 @@ function App() {
           <div className="main-logo animate-fade-up delay-1">
             <span className="word-whatsapp">WhatsApp</span>
             <span className="word-toolbox">Toolbox.</span>
-            <p className="main-subtitle">De la IA creativa al engagement omnicanal</p>
+            <p className="main-subtitle">
+              Construyendo adquisición, conversión y<br />
+              <span className="subtitle-second-line">relaciones en WhatsApp</span>
+            </p>
           </div>
 
           <div className="bubbles-container animate-fade-up delay-2">
             <div className="bubble bubble-dark bubble-left">
-              MÉXICO
+              CIUDAD DE MÉXICO
             </div>
             <div className="bubble bubble-light bubble-right">
               12 DE MAYO | DE 09:00 A 12:00
             </div>
             <div className="bubble bubble-dark bubble-left meta-bubble">
               <img src={metaLogo} alt="Meta" className="meta-icon" />
-              META OFFICE - MÉXICO
+              OFICINA DE META CDMX
             </div>
           </div>
         </div>
@@ -94,7 +92,7 @@ function App() {
         <div className="right-pane">
           <div className="cta-card animate-fade-up delay-3">
             <h2>Confirma tu asistencia</h2>
-            <p>Participa en el evento principal sobre el viaje de la IA creativa al engagement omnicanal.</p>
+            <p>Descubre cómo las marcas usan WhatsApp a lo largo de la jornada del consumidor.</p>
 
             <button onClick={handleRegistration} className="cta-btn">
               Registrarse <ArrowRight size={20} />
