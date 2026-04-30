@@ -154,7 +154,7 @@
 }
 
 .bermuda-img {
-  height: 54px;
+  height: 65px;
   filter: brightness(0) saturate(100%) invert(28%) sepia(26%) saturate(1636%) hue-rotate(219deg) brightness(92%) contrast(87%);
 }
 
@@ -190,7 +190,7 @@
 }
 
 .word-whatsapp {
-  font-size: 6rem;
+  font-size: 6.5rem;
   background: linear-gradient(90deg, #372A5A 0%, #765FB3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -198,7 +198,7 @@
 }
 
 .word-toolbox {
-  font-size: 6rem;
+  font-size: 6.5rem;
   background: linear-gradient(90deg, #44B9B4 0%, #6891D6 60%, #8757ED 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -214,13 +214,13 @@
 }
 
 .main-subtitle {
-  font-size: 2rem;
+  font-size: 30px;
   color: #372A5A;
   margin-top: 1rem;
   margin-left: 0.6rem;
   /* Empurra um pouco para a direita */
   font-weight: 500;
-  letter-spacing: -0.5px;
+  letter-spacing: -1.2px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -264,17 +264,17 @@
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.2rem;
   width: 100%;
-  max-width: 580px;
+  max-width: 500px;
   margin-left: 2rem;
 }
 
 .bubble {
-  padding: 1.2rem 2.8rem;
+  padding: 1.1rem 2.2rem;
   border-radius: 8px;
   /* Mais quadradinho igual a ref */
-  font-size: 1.85rem;
+  font-size: 1.6rem;
   font-weight: 500;
   display: inline-flex;
   align-items: center;
@@ -305,8 +305,8 @@
   content: '';
   position: absolute;
   bottom: -10px;
-  left: 20px;
-  border-width: 12px 12px 0 0;
+  left: 15px;
+  border-width: 10px 10px 0 0;
   border-style: solid;
   border-color: #6a6396 transparent transparent transparent;
 }
@@ -320,8 +320,8 @@
   content: '';
   position: absolute;
   bottom: -10px;
-  right: 20px;
-  border-width: 12px 0 0 12px;
+  right: 15px;
+  border-width: 10px 0 0 10px;
   border-style: solid;
   border-color: #f0f6f6 transparent transparent transparent;
 }
@@ -333,8 +333,8 @@
 }
 
 .meta-icon {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   object-fit: contain;
   filter: brightness(0) invert(1);
   /* Make it pure white to match ref */
@@ -495,7 +495,7 @@
 
   .word-whatsapp,
   .word-toolbox {
-    font-size: 4.5rem;
+    font-size: 5rem;
     letter-spacing: -2px;
   }
 
@@ -540,7 +540,7 @@
 
   .word-whatsapp,
   .word-toolbox {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
   }
 
   .main-subtitle {
@@ -550,7 +550,7 @@
 
   .bubble {
     font-size: 1.3rem;
-    padding: 0.8rem 1.8rem;
+    padding: 0.9rem 1.8rem;
   }
 
   .bubbles-container {
