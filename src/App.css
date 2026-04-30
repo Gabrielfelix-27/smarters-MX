@@ -150,11 +150,11 @@
 
 /* Specific logo adjustments if needed */
 .smarters-img {
-  height: 24px;
+  height: 22px;
 }
 
 .bermuda-img {
-  height: 75px;
+  height: 65px;
   filter: brightness(0) saturate(100%) invert(28%) sepia(26%) saturate(1636%) hue-rotate(219deg) brightness(92%) contrast(87%);
 }
 
@@ -190,7 +190,7 @@
 }
 
 .word-whatsapp {
-  font-size: 6.5rem;
+  font-size: 5.8rem;
   background: linear-gradient(90deg, #372A5A 0%, #765FB3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -198,7 +198,7 @@
 }
 
 .word-toolbox {
-  font-size: 6.5rem;
+  font-size: 5.8rem;
   background: linear-gradient(90deg, #44B9B4 0%, #6891D6 60%, #8757ED 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -214,7 +214,7 @@
 }
 
 .main-subtitle {
-  font-size: 30px;
+  font-size: 27px;
   color: #372A5A;
   margin-top: 1rem;
   margin-left: 0.6rem;
@@ -271,10 +271,10 @@
 }
 
 .bubble {
-  padding: 1.1rem 2.2rem;
+  padding: 1rem 2rem;
   border-radius: 8px;
   /* Mais quadradinho igual a ref */
-  font-size: 1.6rem;
+  font-size: 1.45rem;
   font-weight: 500;
   display: inline-flex;
   align-items: center;
@@ -334,8 +334,8 @@
 }
 
 .meta-icon {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   object-fit: contain;
   filter: brightness(0) invert(1);
   /* Make it pure white to match ref */
@@ -365,15 +365,15 @@
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 12px;
-  padding: 3rem 2.8rem;
+  padding: 2.8rem 2.5rem;
   width: 100%;
-  max-width: 440px;
+  max-width: 400px;
   text-align: center;
   box-shadow: 0 20px 50px rgba(73, 57, 118, 0.08);
 }
 
 .cta-card h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--brand-purple);
   margin-bottom: 1rem;
@@ -383,8 +383,8 @@
 .cta-card p {
   color: var(--brand-purple);
   opacity: 0.8;
-  font-size: 1.15rem;
-  margin-bottom: 2.8rem;
+  font-size: 1.05rem;
+  margin-bottom: 2.5rem;
 }
 
 .cta-btn {
@@ -392,8 +392,8 @@
   color: var(--text-light);
   border: none;
   border-radius: 8px;
-  padding: 1.1rem 1.8rem;
-  font-size: 1.15rem;
+  padding: 1rem 1.6rem;
+  font-size: 1.05rem;
   font-weight: 600;
   cursor: pointer;
   width: 100%;
@@ -416,28 +416,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.9rem;
-  margin-top: 2.2rem;
+  gap: 0.8rem;
+  margin-top: 2rem;
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  padding: 1.2rem 1.8rem;
+  padding: 1rem 1.5rem;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.8);
   box-shadow: 0 10px 30px rgba(73, 57, 118, 0.05);
   width: 100%;
-  max-width: 440px;
+  max-width: 400px;
 }
 
 .countdown-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 65px;
+  min-width: 60px;
 }
 
 .countdown-number {
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   font-weight: 700;
   color: var(--brand-purple);
   line-height: 1;
@@ -445,22 +445,22 @@
 }
 
 .countdown-label {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: var(--brand-purple);
   opacity: 0.7;
-  margin-top: 0.25rem;
+  margin-top: 0.2rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .countdown-separator {
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   font-weight: 700;
   color: var(--brand-purple);
   opacity: 0.3;
   line-height: 1;
-  margin-top: -18px;
+  margin-top: -15px;
 }
 
 /* Responsive */
