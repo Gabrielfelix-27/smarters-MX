@@ -4,6 +4,7 @@
   width: 100%;
   position: relative;
   overflow: hidden;
+  padding-top: 2.8rem;
 }
 
 /* BACKGROUND MESH */
@@ -467,7 +468,7 @@
 @media (max-width: 1024px) {
   .app-container {
     flex-direction: column;
-    padding-top: 6rem;
+    padding-top: 5.5rem;
   }
 
   .left-pane {
@@ -486,8 +487,12 @@
     gap: 1rem;
   }
 
-  .partner-img {
+  .smarters-img {
     height: 18px;
+  }
+
+  .bermuda-img {
+    height: 53px;
   }
 
   .dash-img {
@@ -532,8 +537,12 @@
     gap: 0.8rem;
   }
 
-  .partner-img {
-    height: 13px;
+  .smarters-img {
+    height: 14px;
+  }
+
+  .bermuda-img {
+    height: 40px;
   }
 
   .dash-img {
@@ -578,25 +587,32 @@
   .cta-card {
     padding: 2.5rem 2rem;
   }
+
   .cta-card h2 {
     font-size: 1.8rem;
   }
+
   .cta-card p {
     font-size: 1.1rem;
   }
+
   .countdown-container {
     padding: 1.2rem 1rem;
     gap: 0.5rem;
   }
+
   .countdown-item {
     min-width: 50px;
   }
+
   .countdown-number {
     font-size: 1.8rem;
   }
+
   .countdown-label {
     font-size: 0.8rem;
   }
+
   .countdown-separator {
     font-size: 2rem;
     margin-top: -12px;
