@@ -43,14 +43,14 @@ const SpeakersSection = () => {
     {
       name: "Sergio Laurel",
       title: "Unilever",
-      bio: "Con más de 2 años en Unilever, gestiona la estrategia de medios retail y negociaciones con JBP a nivel nacional, posicionando a la marca como referente en el ecosistema digital y de point of purchase. Su enfoque combina visión de negocio, optimización de presupuestos y toma de decisiones basada en datos para maximizar el impacto en medios pagados y earned media.",
+      bio: "Sergio Laurel es Manager de Medios y E-commerce en Unilever México, donde lidera la estrategia de comunicación para el portafolio de alimentos, con foco en performance y retail media. Cuenta con más de una década de experiencia en agencias, tecnología y marcas, con una visión integral del ecosistema de medios y un enfoque en audiencias social-first e innovación con IA.",
       image: sergioImg,
       logo: unileverLogo
     },
     {
       name: "Ivette Cross",
       title: "PepsiCo Latam",
-      bio: "Con más de 7 años en PepsiCo, lidera la estrategia de marketing para Latinoamérica con foco en programas especiales, deportes, partnerships y promociones. Su experiencia abarca mercados clave como México, Argentina, Chile, Uruguay y Paraguay, impulsando iniciativas de innovación y comercialización para marcas globales.",
+      bio: "Ivette Cross lidera la agenda de Consumer Engagement para Latinoamérica desde el equipo de Brand Strategy en PepsiCo, con foco en licencias, sports marketing y sponsorships. Se especializa en transformar estrategias globales en experiencias locales que conectan con los consumidores y generan impacto a escala regional.",
       image: ivetteImg,
       logo: pepsicoLogo
     }
