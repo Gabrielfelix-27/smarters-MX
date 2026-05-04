@@ -83,17 +83,16 @@
 
 .speaker-card {
   flex: 0 0 calc(33.333% - 1.666rem);
-  scroll-snap-align: start;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 2px solid rgba(135, 87, 237, 0.4);
+  background: white;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 20px 50px rgba(73, 57, 118, 0.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
   transition: transform 0.3s ease;
+  scroll-snap-align: start;
+  border: 1px solid rgba(139, 92, 246, 0.1);
+  position: relative;
 }
 
 .speaker-card:hover {
@@ -203,7 +202,20 @@
   object-fit: contain;
 }
 
+.speaker-logo.logo-smarters {
+  height: 30px;
+}
+
+.speaker-logo.logo-bermuda {
+  filter: brightness(0) saturate(100%) invert(28%) sepia(26%) saturate(1636%) hue-rotate(219deg) brightness(92%) contrast(87%);
+}
+
 .speaker-meta-top-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
   background: var(--brand-cyan);
   color: #120A2B;
   text-align: center;

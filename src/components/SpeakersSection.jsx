@@ -7,6 +7,8 @@ import sergioImg from '../assets/Sergio-Laurel-.png';
 import ivetteImg from '../assets/Ivette-Cross---PepsiCo-Latam.png';
 import pepsicoLogo from '../assets/PepsiCo-LOGO.png';
 import unileverLogo from '../assets/Unilever-LOGO.png';
+import smartersLogo from '../assets/smarters-txt.png';
+import bermudaLogo from '../assets/Bermuda.png';
 
 const SpeakersSection = () => {
   const scrollRef = useRef(null);
@@ -17,20 +19,26 @@ const SpeakersSection = () => {
     {
       name: "Samir Ramos",
       title: "Co-Founder & CIO smarters",
-      bio: "Emprendedor con +20 años en tecnología, fundó tres empresas y trabaja con IA desde 2011. Desde hace una década, trabaja en la construcción de la internet de los agentes, desarrollando agentes que conectan marcas y consumidores.",
-      image: samirImg
+      bio: "Emprendedor con +20 años en tecnología, fundó tres empresas y trabalha con IA desde 2011. Desde hace una década, trabaja en la construcción de la internet de los agentes, desarrollando agentes que conectan marcas y consumidores.",
+      image: samirImg,
+      logo: smartersLogo,
+      logoClass: "logo-smarters"
     },
     {
       name: "Leandro Ramos",
       title: "Director de Partnership smarters",
       bio: "Leandro lidera alianzas estratégicas y la expansión en Latinoamérica (México, Argentina, Perú y Brasil). Con más de 27 años de experiencia internacional en empresas globales, impulsa el desarrollo de soluciones de marketing conversacional y partnerships estratégicos con grandes marcas.",
-      image: leandroImg
+      image: leandroImg,
+      logo: smartersLogo,
+      logoClass: "logo-smarters"
     },
     {
       name: "Santiago Maiz",
       title: "COO Bermuda",
       bio: "Con más de 25 años de trayectoria, trabaja en la intersección entre creatividad, tecnología y experiencias phygital para agencias y marcas que buscan contar nuevas historias.",
-      image: santiagoImg
+      image: santiagoImg,
+      logo: bermudaLogo,
+      logoClass: "logo-bermuda"
     },
     {
       name: "Sergio Laurel",
@@ -102,7 +110,7 @@ const SpeakersSection = () => {
                     <h3 className="speaker-name">{speaker.name}</h3>
                     {speaker.logo && (
                       <div className="speaker-right-content">
-                        <img src={speaker.logo} alt={`${speaker.title} logo`} className="speaker-logo" />
+                        <img src={speaker.logo} alt={`${speaker.title} logo`} className={`speaker-logo ${speaker.logoClass || ''}`} />
                       </div>
                     )}
                   </div>
