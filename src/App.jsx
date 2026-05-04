@@ -6,6 +6,7 @@ import bermudaLogo from './assets/Bermuda.png';
 import eventLogo from './assets/nome-evento.png';
 import metaLogo from './assets/meta-logo.png';
 import RegistrationModal from './components/RegistrationModal';
+import SpeakersSection from './components/SpeakersSection';
 import './App.css';
 
 function App() {
@@ -126,6 +127,9 @@ function App() {
             </div>
           </div>
         </div>
+
+        {/* SPEAKERS SECTION */}
+        <SpeakersSection />
 
         {/* FOOTER */}
         <footer className="site-footer">
