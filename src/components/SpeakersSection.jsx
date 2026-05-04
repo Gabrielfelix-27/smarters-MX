@@ -14,7 +14,7 @@ const SpeakersSection = () => {
     },
     {
       name: "Leandro Ramos",
-      title: "Director of Strategic Partnerships, smarters",
+      title: "Head de Partnership smarters",
       bio: "Leandro lidera alianzas estratégicas y la expansión en Latinoamérica (México, Argentina, Perú y Brasil). Con más de 27 años de experiencia internacional en empresas globales, impulsa el desarrollo de soluciones de marketing conversacional y partnerships estratégicos con grandes marcas.",
       image: leandroImg
     },
