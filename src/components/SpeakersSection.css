@@ -183,11 +183,20 @@
 }
 
 @media (max-width: 768px) {
-  .carousel-arrow.left { left: 10px; }
-  .carousel-arrow.right { right: 10px; }
+  .speakers-grid {
+    flex-direction: column;
+    overflow-x: visible;
+    gap: 2rem;
+    scroll-snap-type: none;
+  }
+
+  .carousel-arrow {
+    display: none;
+  }
   
   .speaker-card {
-    flex: 0 0 100%;
+    flex: 0 0 auto;
+    width: 100%;
   }
 
   .speaker-info {
@@ -203,26 +212,10 @@
 }
 
 .speaker-logo.logo-smarters {
-  height: 30px;
+  height: 16px;
+  margin-top: 18px;
 }
 
 .speaker-logo.logo-bermuda {
   filter: brightness(0) saturate(100%) invert(28%) sepia(26%) saturate(1636%) hue-rotate(219deg) brightness(92%) contrast(87%);
-}
-
-.speaker-meta-top-banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2;
-  background: var(--brand-cyan);
-  color: #120A2B;
-  text-align: center;
-  padding: 0.6rem 1rem;
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border-bottom: 2px solid rgba(255,255,255,0.1);
 }

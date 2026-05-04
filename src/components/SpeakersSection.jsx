@@ -45,16 +45,14 @@ const SpeakersSection = () => {
       title: "Unilever",
       bio: "Con más de 2 años en Unilever, gestiona la estrategia de medios retail y negociaciones con JBP a nivel nacional, posicionando a la marca como referente en el ecosistema digital y de point of purchase. Su enfoque combina visión de negocio, optimización de presupuestos y toma de decisiones basada en datos para maximizar el impacto en medios pagados y earned media.",
       image: sergioImg,
-      logo: unileverLogo,
-      metaLabel: "Líderes de Meta"
+      logo: unileverLogo
     },
     {
       name: "Ivette Cross",
       title: "PepsiCo Latam",
       bio: "Con más de 7 años en PepsiCo, lidera la estrategia de marketing para Latinoamérica con foco en programas especiales, deportes, partnerships y promociones. Su experiencia abarca mercados clave como México, Argentina, Chile, Uruguay y Paraguay, impulsando iniciativas de innovación y comercialización para marcas globales.",
       image: ivetteImg,
-      logo: pepsicoLogo,
-      metaLabel: "Líderes de Meta"
+      logo: pepsicoLogo
     }
   ];
 
@@ -85,7 +83,7 @@ const SpeakersSection = () => {
     <section className="speakers-section animate-fade-up delay-3">
       <div className="speakers-container">
         <h2 className="speakers-title">SPEAKERS</h2>
-        <p className="speakers-subtitle">Y panel con líderes de Meta</p>
+        <p className="speakers-subtitle">Y panel con líderes de Meta, PepsiCo y Unilever</p>
 
         <div className="speakers-grid-wrapper">
           {showLeftArrow && (
@@ -97,11 +95,6 @@ const SpeakersSection = () => {
           <div className="speakers-grid" ref={scrollRef} onScroll={handleScroll}>
             {speakers.map((speaker, index) => (
               <div key={index} className="speaker-card">
-                {speaker.metaLabel && (
-                  <div className="speaker-meta-top-banner">
-                    {speaker.metaLabel}
-                  </div>
-                )}
                 <div className="speaker-image-container">
                   <img src={speaker.image} alt={speaker.name} className="speaker-image" />
                 </div>
