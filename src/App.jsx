@@ -83,7 +83,7 @@ function App() {
                 CIUDAD DE MÉXICO
               </div>
               <div className="bubble bubble-light bubble-right">
-                12 DE MAYO | DE 09:00 A 12:00
+                12 DE MAYO | 9:00 a.m - 12:30 p.m
               </div>
               <div className="bubble bubble-dark bubble-left meta-bubble">
                 <img src={metaLogo} alt="Meta" className="meta-icon" />

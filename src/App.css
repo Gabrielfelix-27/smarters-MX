@@ -562,8 +562,9 @@
   }
 
   .bubble {
-    font-size: 1.3rem;
-    padding: 0.9rem 1.8rem;
+    font-size: 1.15rem;
+    padding: 0.8rem 1.2rem;
+    max-width: 90vw;
   }
 
   .bubbles-container {
@@ -574,7 +575,7 @@
 
   .bubble-right {
     align-self: flex-start;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .partners-logos {
