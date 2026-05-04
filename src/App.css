@@ -110,7 +110,7 @@
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.15);
+  background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
   /* More transparent glass */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -286,12 +286,14 @@
 }
 
 .bubble-dark {
+  background: linear-gradient(#6a6396, #6a6396);
   background-color: #6a6396;
   /* Reference muted purple */
   color: white;
 }
 
 .bubble-light {
+  background: linear-gradient(#f0f6f6, #f0f6f6);
   background-color: #f0f6f6;
   /* Reference soft cyan/white */
   color: #372A5A;
@@ -361,7 +363,7 @@
 }
 
 .cta-card {
-  background: rgba(255, 255, 255, 0.6);
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.8);
@@ -419,7 +421,7 @@
   justify-content: center;
   gap: 0.8rem;
   margin-top: 2rem;
-  background: rgba(255, 255, 255, 0.6);
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   padding: 1rem 1.5rem;
