@@ -25,20 +25,20 @@ const SpeakersSection = () => {
       logoClass: "logo-smarters"
     },
     {
-      name: "Leandro Ramos",
-      title: "Director de Partnership smarters",
-      bio: "Leandro lidera alianzas estratégicas y la expansión en Latinoamérica (México, Argentina, Perú y Brasil). Con más de 27 años de experiencia internacional en empresas globales, impulsa el desarrollo de soluciones de marketing conversacional y partnerships estratégicos con grandes marcas.",
-      image: leandroImg,
-      logo: smartersLogo,
-      logoClass: "logo-smarters"
-    },
-    {
       name: "Santiago Maiz",
       title: "COO Bermuda",
       bio: "Con más de 25 años de trayectoria, trabaja en la intersección entre creatividad, tecnología y experiencias phygital para agencias y marcas que buscan contar nuevas historias.",
       image: santiagoImg,
       logo: bermudaLogo,
       logoClass: "logo-bermuda"
+    },
+    {
+      name: "Leandro Ramos",
+      title: "Director de Partnership smarters",
+      bio: "Lidera alianzas estratégicas y la expansión en Latinoamérica (México, Argentina, Perú y Brasil). Con más de 27 años de experiencia internacional en empresas globales, impulsa el desarrollo de soluciones de marketing conversacional y partnerships estratégicos con grandes marcas.",
+      image: leandroImg,
+      logo: smartersLogo,
+      logoClass: "logo-smarters"
     },
     {
       name: "Ivette Cross",

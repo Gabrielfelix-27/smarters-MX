@@ -80,14 +80,14 @@ function App() {
 
             <div className="bubbles-container animate-fade-up delay-2">
               <div className="bubble bubble-dark bubble-left">
-                CIUDAD DE MÉXICO
+                CDMX
               </div>
               <div className="bubble bubble-light bubble-right">
-                12 DE MAYO | 9:00 A.M - 12:30 P.M
+                12 DE MAYO | 9:00 AM - 12:30 PM
               </div>
               <div className="bubble bubble-dark bubble-left meta-bubble">
                 <img src={metaLogo} alt="Meta" className="meta-icon" />
-                OFICINA DE META CDMX
+                OFICINAS DE META
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ function App() {
           <div className="right-pane">
             <div className="cta-card animate-fade-up delay-3">
               <h2>Confirma tu asistencia</h2>
-              <p>Descubre cómo las marcas usan WhatsApp a lo largo de la jornada del consumidor.</p>
+              <p>Descubre cómo las marcas están usando WhatsApp para generar resultados reales.</p>
 
               <button onClick={handleRegistration} className="cta-btn">
                 Registrarse <ArrowRight size={20} />
