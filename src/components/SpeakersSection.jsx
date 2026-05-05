@@ -10,7 +10,7 @@ import pepsicoLogo from '../assets/PepsiCo-LOGO.png';
 import unileverLogo from '../assets/Unilever-LOGO.png';
 import smartersLogo from '../assets/smarters-txt.png';
 import bermudaLogo from '../assets/Bermuda.png';
-import metaLogo from '../assets/meta-logo.png';
+import metaLogo from '../assets/META.png';
 
 const SpeakersSection = () => {
   const scrollRef = useRef(null);
@@ -47,8 +47,7 @@ const SpeakersSection = () => {
       title: "Channel Partner Manager Meta",
       bio: "Partner Manager for Business Messaging at Meta since 2021, leading growth with strategic partners across LATAM. With 15+ years in tech, she held partnerships and sales roles at Hewlett Packard Enterprise and Dell Technologies. She holds degrees in International Business from San Diego State University and Tecnológico de Monterrey, an MBA from Tec de Monterrey, and a certificate from Harvard Extension School.",
       image: elizabethImg,
-      logo: metaLogo,
-      logoClass: "logo-meta"
+      logo: metaLogo
     },
     {
       name: "Ivette Cross",
