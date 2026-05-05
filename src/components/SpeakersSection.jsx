@@ -47,7 +47,8 @@ const SpeakersSection = () => {
       title: "Channel Partner Manager Meta",
       bio: "Partner Manager for Business Messaging at Meta since 2021, leading growth with strategic partners across LATAM. With 15+ years in tech, she held partnerships and sales roles at Hewlett Packard Enterprise and Dell Technologies. She holds degrees in International Business from San Diego State University and Tecnológico de Monterrey, an MBA from Tec de Monterrey, and a certificate from Harvard Extension School.",
       image: elizabethImg,
-      logo: metaLogo
+      logo: metaLogo,
+      logoClass: "logo-meta"
     },
     {
       name: "Ivette Cross",

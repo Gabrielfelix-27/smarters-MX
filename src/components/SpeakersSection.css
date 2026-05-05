@@ -219,3 +219,8 @@
 .speaker-logo.logo-bermuda {
   filter: brightness(0) saturate(100%) invert(28%) sepia(26%) saturate(1636%) hue-rotate(219deg) brightness(92%) contrast(87%);
 }
+
+.speaker-logo.logo-meta {
+  height: 22px;
+  margin-top: 15px;
+}
