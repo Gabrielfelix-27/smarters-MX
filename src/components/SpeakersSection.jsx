@@ -5,7 +5,7 @@ import santiagoImg from '../assets/Santiago-Maiz.png';
 import leandroImg from '../assets/Leandro-Site.png';
 import sergioImg from '../assets/Sergio-Laurel-.png';
 import ivetteImg from '../assets/Ivette-Cross---PepsiCo-Latam.png';
-import elizabethImg from '../assets/elizabeth-macias.jpeg';
+import elizabethImg from '../assets/elizabeth-macias.png';
 import pepsicoLogo from '../assets/PepsiCo-LOGO.png';
 import unileverLogo from '../assets/Unilever-LOGO.png';
 import smartersLogo from '../assets/smarters-txt.png';
