@@ -5,10 +5,12 @@ import santiagoImg from '../assets/Santiago-Maiz.png';
 import leandroImg from '../assets/Leandro-Site.png';
 import sergioImg from '../assets/Sergio-Laurel-.png';
 import ivetteImg from '../assets/Ivette-Cross---PepsiCo-Latam.png';
+import elizabethImg from '../assets/elizabeth-macias.jpeg';
 import pepsicoLogo from '../assets/PepsiCo-LOGO.png';
 import unileverLogo from '../assets/Unilever-LOGO.png';
 import smartersLogo from '../assets/smarters-txt.png';
 import bermudaLogo from '../assets/Bermuda.png';
+import metaLogo from '../assets/meta-logo.png';
 
 const SpeakersSection = () => {
   const scrollRef = useRef(null);
@@ -41,15 +43,23 @@ const SpeakersSection = () => {
       logoClass: "logo-smarters"
     },
     {
+      name: "Elizabeth Macías",
+      title: "Channel Partner Manager Meta",
+      bio: "Partner Manager for Business Messaging at Meta since 2021, leading growth with strategic partners across LATAM. With 15+ years in tech, she held partnerships and sales roles at Hewlett Packard Enterprise and Dell Technologies. She holds degrees in International Business from San Diego State University and Tecnológico de Monterrey, an MBA from Tec de Monterrey, and a certificate from Harvard Extension School.",
+      image: elizabethImg,
+      logo: metaLogo,
+      logoClass: "logo-meta"
+    },
+    {
       name: "Ivette Cross",
-      title: "PepsiCo Latam",
+      title: "Marketing Strategy Manager PepsiCo",
       bio: "Ivette Cross lidera la agenda de Consumer Engagement para Latinoamérica desde el equipo de Brand Strategy en PepsiCo, con foco en licencias, sports marketing y sponsorships. Se especializa en transformar estrategias globales en experiencias locales que conectan con los consumidores y generan impacto a escala regional.",
       image: ivetteImg,
       logo: pepsicoLogo
     },
     {
       name: "Sergio Laurel",
-      title: "Unilever",
+      title: "Media and Retail Manager Unilever",
       bio: "Sergio Laurel es Manager de Medios y E-commerce en Unilever México, donde lidera la estrategia de comunicación para el portafolio de alimentos, con foco en performance y retail media. Cuenta con más de una década de experiencia en agencias, tecnología y marcas, con una visión integral del ecosistema de medios y un enfoque en audiencias social-first e innovación con IA.",
       image: sergioImg,
       logo: unileverLogo
